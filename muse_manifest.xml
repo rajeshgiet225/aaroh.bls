@@ -1,0 +1,448 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="basudevelopmentelectronics.com" resolutions="1x" timestamp="1619003200898">
+  <folder name="css">
+    <file name="site_global.css" crc="201739465"/>
+    <file name="diagnostic-for--new-born.css" crc="366864138" ref="diagnostic-for--new-born"/>
+    <file name="contact.css" crc="3890525421" ref="contact"/>
+    <file name="why-us.css" crc="3968905570" ref="why-us"/>
+    <file name="iefonts_why-us.css" crc="4120561049" ref="why-us"/>
+    <file name="gallery.css" crc="176249487" ref="gallery"/>
+    <file name="hearing-aid-care.css" crc="4167143867" ref="hearing-aid-care"/>
+    <file name="hearing-aid.css" crc="387802768" ref="hearing-aid"/>
+    <file name="consultation.css" crc="524224030" ref="consultation"/>
+    <file name="diagnostic-for--adult.css" crc="357776207" ref="diagnostic-for--adult"/>
+    <file name="index.css" crc="4267693638" ref="index"/>
+    <file name="iefonts_index.css" crc="376615129" ref="index"/>
+    <file name="hearing.css" crc="44767956" ref="hearing"/>
+    <file name="our-services.css" crc="418049111" ref="our-services"/>
+    <file name="hearing-aid-battery.css" crc="4033834540" ref="hearing-aid-battery"/>
+    <file name="speach-therapy.css" crc="3945442621" ref="speach-therapy"/>
+    <file name="diagnostic-for--children.css" crc="3834814886" ref="diagnostic-for--children"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:our-services:gallery:contact:hearing-aid:why-us:hearing:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="museutils.js" crc="3939489907" ref="index:our-services:gallery:contact:hearing-aid:why-us:hearing:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="whatinput.js" crc="86476730" ref="index:our-services:gallery:contact:hearing-aid:why-us:hearing:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:our-services:gallery:contact:hearing-aid:why-us:hearing:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:gallery:contact:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="webpro.js" crc="3856315280" ref="index:hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="index:hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="index:hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult"/>
+    <file name="touchswipe.js" crc="3888935200" ref="index:hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:our-services:gallery:contact:hearing-aid:why-us:hearing:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="index:gallery:contact:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="form_check.php" crc="4108222811" ref="index"/>
+    <file name="form_throttle.php" crc="503802655" ref="index"/>
+    <file name="form_process.php" crc="260214869" ref="index"/>
+    <file name="form-u21086.php" crc="131479550" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:our-services:gallery:contact:hearing-aid:why-us:hearing:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="require.js" crc="4177726516" ref="index:our-services:gallery:contact:hearing-aid:why-us:hearing:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+  </folder>
+  <folder name="images">
+    <file name="testimonials.png" crc="4083760234" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p7.jpg" crc="4230474419" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p8.jpg" crc="435617401" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p9.jpg" crc="300861052" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p1.jpg" crc="439940231" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p2.jpg" crc="262429777" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p3.jpg" crc="3864086125" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p4.jpg" crc="336770731" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p5.jpg" crc="4129631760" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="p6.jpg" crc="60468847" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkbox.png" crc="4258989587" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="d20cv.jpg" crc="4171631097" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logoaaroh-u21261-fr.png" crc="4029462789" ref="index:gallery:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation"/>
+    <file name="mobile-phone-u21262-fr.png" crc="195149619" ref="index:gallery:contact:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult"/>
+    <file name="whatsapp.png" crc="234484649" ref="index:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:speach-therapy:diagnostic-for--adult:consultation">
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="mobile-phone.png" crc="479893436" ref="index:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:speach-therapy:diagnostic-for--adult:consultation">
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="facebook.png" crc="407167642" ref="index:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:speach-therapy:diagnostic-for--adult:consultation">
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="google-maps.png" crc="195896915" ref="index:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:speach-therapy:diagnostic-for--adult:consultation">
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="dribble28x28.jpg" crc="3900312861" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook28x28.jpg" crc="3814358492" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="linkedin28x28.jpg" crc="4032340596" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rss.png" crc="4144695932" seo="true" ref="index:hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult">
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+    </file>
+    <file name="pinterest28x28.jpg" crc="340003248" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter28x28.jpg" crc="462041627" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="b2.jpg" crc="59234964" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="siemens-list-img.jpg" crc="3800908104" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="d3.jpg" crc="293445522" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="aarohbanner.jpg" crc="4223701369" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrowmenudown.png" crc="262559161" ref="index:gallery:contact:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation">
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="comtest.jpg" crc="4121333465" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="childht.jpg" crc="239671239" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="speech_and_language_therapy_for_kids.jpg" crc="476279763" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cohi.jpg" crc="3801863662" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="orange-bg.png" crc="4194313429" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="button-en-2-u21290.png" crc="262385331" ref="index"/>
+    <file name="purple-bg.png" crc="4028653270" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logoaaroh.png" crc="455027711" ref="index:gallery:contact:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation">
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="maibnn.jpg" crc="303156787" ref="index:gallery:contact:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation">
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="rplexpng.png" crc="3904316786" ref="index:gallery:contact:hearing-aid:why-us:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:speach-therapy:diagnostic-for--adult:consultation">
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="consultation" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="speach-therapy" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="whatsapp-u8186-fr.png" crc="4028325327" ref="gallery:contact"/>
+    <file name="mobile-phone-u8184-fr.png" crc="354937033" ref="gallery:contact"/>
+    <file name="facebook-u8183-fr.png" crc="291835237" ref="gallery:contact"/>
+    <file name="google-maps-u8185-fr.png" crc="76812106" ref="gallery:contact"/>
+    <file name="d1.jpg" crc="3937354964" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="d19.jpg" crc="473987489" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="d34.jpg" crc="4075732044" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="siemens-list-img-u7980-fr.jpg" crc="3797347290" ref="gallery"/>
+    <file name="u7981-4.png" crc="3883120910" ref="gallery"/>
+    <file name="dfred.png" crc="381156499" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="68ae15444b9cc673e19cde1585bcf917.jpg" crc="3831655921" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="42-21856138_edit-768x511.jpg" crc="3870185514" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="hearingexam.jpg" crc="3937139213" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="hearing-exam-3.jpg" crc="313909754" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="istock-477562350.jpg" crc="83977290" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="istock-1057569712-hearing-test-1280x853.jpg" crc="3767853239" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="ucimg-846-2048x1150.jpg" crc="54807572" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="unnamed.jpg" crc="3917186781" ref="gallery">
+      <caption webpage="gallery" alt=""/>
+    </file>
+    <file name="logoaaroh-u6606-fr.png" crc="3770729075" ref="contact"/>
+    <file name="hadtsw.jpg" crc="55993144" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="u6597-4.png" crc="4180419916" ref="contact"/>
+    <file name="caduceus-2730761_poster_u7068.png" crc="108504768" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="motionp_dark champagne (1).jpg" crc="3769902364" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="silk_primax_sideview_left (1).jpg" crc="426960292" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="u6578-4.png" crc="4186244881" ref="contact"/>
+    <file name="u6580-4.png" crc="3988825415" ref="contact"/>
+    <file name="u6609-4.png" crc="3988825415" ref="contact"/>
+    <file name="u6610-4.png" crc="3988825415" ref="contact"/>
+    <file name="h12.jpg" crc="3938476016" seo="true" ref="hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult">
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult"/>
+    <file name="h13.jpg" crc="98135255" seo="true" ref="hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult">
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+    </file>
+    <file name="h14.jpg" crc="4198861452" seo="true" ref="hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult">
+      <caption webpage="hearing-aid" alt=""/>
+      <caption webpage="diagnostic-for--adult" alt=""/>
+      <caption webpage="hearing-aid-battery" alt=""/>
+      <caption webpage="hearing-aid-care" alt=""/>
+      <caption webpage="diagnostic-for--children" alt=""/>
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="hearing-aid:hearing-aid-care:hearing-aid-battery:diagnostic-for--children:diagnostic-for--new-born:diagnostic-for--adult"/>
+    <file name="10th certificate.jpg" crc="354316635" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="behind-the-ear-hearing-aids-1.jpg" crc="4242120363" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="receiver-in-the-canal-hearing-aid-user.jpg" crc="534855842" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="intheear.jpg" crc="4138022453" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="rs_ls_cic_on_ear_side.jpg" crc="3793796225" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="cic.jpg" crc="3893548261" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="invisible-hearing-aids-no-one-will-know-youre-wearing-them-1500061394884.jpg" crc="172213049" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="marvel.jpg" crc="4274125738" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="5a617b31ae3f8f00019b0dc6_signia-logo.png" crc="289144458" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="unnamed.png" crc="223782" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="dfre.jpg" crc="244483349" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="phonak.jpg" crc="498948358" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="rex.jpg" crc="190453102" ref="hearing-aid">
+      <caption webpage="hearing-aid" alt=""/>
+    </file>
+    <file name="speech-therapyd1.jpg" crc="292461746" ref="why-us">
+      <caption webpage="why-us" alt=""/>
+    </file>
+    <file name="u18349-4.png" crc="344784159" ref="why-us"/>
+    <file name="caduceus-2730761.svg" crc="309921391" ref="why-us"/>
+    <file name="caduceus-2730761_poster_u18589.png" crc="4119534440" ref="why-us"/>
+    <file name="prasannajit.jpg" crc="207447990" ref="why-us">
+      <caption webpage="why-us" alt=""/>
+    </file>
+    <file name="d2.jpg" crc="4226219591" ref="why-us">
+      <caption webpage="why-us" alt=""/>
+    </file>
+    <file name="article_plus.png" crc="4100056797" ref="why-us">
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="why-us" alt=""/>
+      <caption webpage="why-us" alt=""/>
+    </file>
+    <file name="snap_screen_20210315003745.jpg" crc="4021045381" ref="hearing-aid-battery">
+      <caption webpage="hearing-aid-battery" alt=""/>
+    </file>
+    <file name="snap_screen_20210315004041.jpg" crc="511298475" ref="hearing-aid-battery">
+      <caption webpage="hearing-aid-battery" alt=""/>
+    </file>
+    <file name="snap_screen_20210315004242.jpg" crc="55748757" ref="hearing-aid-battery">
+      <caption webpage="hearing-aid-battery" alt=""/>
+    </file>
+    <file name="snap_screen_20210323012710.jpg" crc="4255696444" ref="hearing-aid-battery">
+      <caption webpage="hearing-aid-battery" alt=""/>
+    </file>
+    <file name="3752-doctor_examining_child_ear-732x549-thumbnail-1-732x549.jpg" crc="3993011599" ref="diagnostic-for--children">
+      <caption webpage="diagnostic-for--children" alt=""/>
+    </file>
+    <file name="whatsapp-u11314-fr.png" crc="4180472997" ref="diagnostic-for--new-born"/>
+    <file name="mobile-phone-u11311-fr.png" crc="506896575" ref="diagnostic-for--new-born"/>
+    <file name="facebook-u11312-fr.png" crc="459566996" ref="diagnostic-for--new-born"/>
+    <file name="google-maps-u11313-fr.png" crc="260410742" ref="diagnostic-for--new-born"/>
+    <file name="frgtre.jpg" crc="4172764209" ref="diagnostic-for--new-born">
+      <caption webpage="diagnostic-for--new-born" alt=""/>
+    </file>
+    <file name="ddrdrdreeeee.jpg" crc="3930854504" ref="speach-therapy">
+      <caption webpage="speach-therapy" alt=""/>
+    </file>
+    <file name="u9034-4.png" crc="380484514" ref="speach-therapy"/>
+    <file name="pediatric-speech-therapist-1080x675.jpg" crc="3927432722" ref="speach-therapy">
+      <caption webpage="speach-therapy" alt=""/>
+    </file>
+    <file name="adult.jpg" crc="363218121" ref="diagnostic-for--adult">
+      <caption webpage="diagnostic-for--adult" alt=""/>
+    </file>
+    <file name="mobile-phone-u14279-fr.png" crc="4229990877" ref="consultation"/>
+  </folder>
+  <file name="index.html" crc="3848953651" seo="true" mt="1618930129940" redirect="true"/>
+  <file name="our-services.html" crc="3929278431" seo="true" mt="1618914048049" redirect="false"/>
+  <file name="gallery.html" crc="354660522" seo="true" mt="1618993782465" redirect="true"/>
+  <file name="contact.html" crc="4291680242" seo="true" mt="1618930877560" redirect="true"/>
+  <file name="hearing-aid.html" crc="18631514" seo="true" mt="1618994847205" redirect="true"/>
+  <file name="why-us.html" crc="4271397803" seo="true" mt="1618929802812" redirect="true"/>
+  <file name="hearing.html" crc="4231897682" seo="true" mt="1618924940482" redirect="false"/>
+  <file name="hearing-aid-care.html" crc="167388397" seo="true" mt="1618929802818" redirect="true"/>
+  <file name="hearing-aid-battery.html" crc="4093606351" seo="true" mt="1618930608558" redirect="true"/>
+  <file name="diagnostic-for--children.html" crc="3774838996" seo="true" mt="1618994743490" redirect="true"/>
+  <file name="diagnostic-for--new-born.html" crc="4101577116" seo="true" mt="1618994700887" redirect="true"/>
+  <file name="speach-therapy.html" crc="457610004" seo="true" mt="1618994628503" redirect="true"/>
+  <file name="diagnostic-for--adult.html" crc="295566295" seo="true" mt="1618994786392" redirect="true"/>
+  <file name="consultation.html" crc="243299663" seo="true" mt="1618929802807" redirect="true"/>
+</manifest>

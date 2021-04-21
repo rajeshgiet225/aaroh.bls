@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.1.1.386"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.musemenu.js", "require.js", "why-us.css"], "outOfDate":[]};
+</script>
+  
+  <title>Why Us</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=201739465"/>
+  <link rel="stylesheet" type="text/css" href="css/why-us.css?crc=3968905570" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_why-us.css?crc=4120561049"/>
+  <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script src="https://webfonts.creativecloud.com/lato:n4,n7,n3:all.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+  <![endif]-->
+    <!--HTML Widget code-->
+  
+
+<style>
+	#u18551 .panel {
+		float: left;
+		width: 200px;
+		height: 200px;
+		/*margin: 20px;
+		 font-size: .8em;
+		 */
+		position: relative;
+
+		-webkit-perspective: 600px;
+		   -moz-perspective: 600px;
+		        perspective: 600px;
+		
+	}
+	#u18551 .panel .box2{
+		
+		z-index:900;
+		position:absolute;
+		margin:0px;
+		float: none;
+		top: 0;
+		left: 0;
+		-webkit-transform-style: preserve-3d;
+		   -moz-transform-style: preserve-3d;
+		        transform-style: preserve-3d;
+
+		-webkit-backface-visibility: hidden;
+		   -moz-backface-visibility: hidden;
+		        backface-visibility: hidden;
+
+		/* -- transition is the magic sauce for animation -- */
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	
+	}
+	#u18551 .panel .box2_back{
+		
+		z-index:800;
+		position:absolute;
+		margin:0px;
+		float: none;
+		top: 0;
+		left: 0;
+		-webkit-transform-style: preserve-3d;
+		   -moz-transform-style: preserve-3d;
+		        transform-style: preserve-3d;
+
+		-webkit-backface-visibility: hidden;
+		   -moz-backface-visibility: hidden;
+		        backface-visibility: hidden;
+
+		/* -- transition is the magic sauce for animation -- */
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	}
+	
+	/*** Horizontal flip ***/
+	
+	#u18551 .hflip .box2{
+		
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18551 .hflip.flip .box2{
+		
+		z-index:900;
+		-webkit-transform: rotateY(180deg);
+		   -moz-transform: rotateY(180deg);
+		        transform: rotateY(180deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+
+	#u18551 .hflip .box2_back{
+		
+		cursor: pointer;
+		-webkit-transform: rotateY(-180deg);
+		   -moz-transform: rotateY(-179deg); /* setting to 180 causes an unnatural-looking half-flip */
+		        transform: rotateY(-179deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18551 .hflip.flip .box2_back{
+	
+		z-index:1000;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+	#u18551 .hflip .box2,#u18551 .hflip .box2_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** Horizontal flip other direction ***/
+	
+	#u18551 .hoflip .box2{
+		
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18551 .hoflip.flip .box2{
+		
+		z-index:900;
+		-webkit-transform: rotateY(-180deg);
+		   -moz-transform: rotateY(-179deg);
+		        transform: rotateY(-179deg);
+		         -webkit-transform-origin: 50% 50%;
+		    
+	}
+	
+
+	#u18551 .hoflip .box2_back{
+		
+		cursor: pointer;
+		-webkit-transform: rotateY(180deg);
+		   -moz-transform: rotateY(180deg); /* setting to 180 causes an unnatural-looking half-flip */
+		        transform: rotateY(180deg);
+		         -webkit-transform-origin: 50% 50%;
+		       
+
+		
+	}
+	#u18551 .hoflip.flip .box2_back{
+	
+		z-index:1000;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+	#u18551 .hoflip .box2,#u18551 .hoflip .box2_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+		
+	}
+	
+	/*** Vertical flip ***/
+	
+	#u18551 .vflip .box2{
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .vflip.flip .box2{
+		
+		z-index:900;
+		-webkit-transform: rotateX(180deg);
+		   -moz-transform: rotateX(180deg);
+		        transform: rotateX(180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .vflip .box2_back{
+		cursor: pointer;
+		-webkit-transform: rotateX(-180deg);
+		   -moz-transform: rotateX(-180deg);
+		        transform: rotateX(-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .vflip.flip .box2_back{
+		
+		z-index:1000;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .vflip .box2,#u18551 .vflip .box2_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** Vertical flip other direction ***/
+	
+	#u18551 .voflip .box2{
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .voflip.flip .box2{
+		
+		z-index:900;
+		-webkit-transform: rotateX(-180deg);
+		   -moz-transform: rotateX(-180deg);
+		        transform: rotateX(-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .voflip .box2_back{
+		cursor: pointer;
+		-webkit-transform: rotateX(180deg);
+		   -moz-transform: rotateX(180deg);
+		        transform: rotateX(180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .voflip.flip .box2_back{
+		
+		z-index:1000;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .voflip .box2,#u18551 .voflip .box2_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	
+	/*** diagonal flip ***/
+	#u18551 .diagonal .box2 {
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .diagonal .box2:hover {
+		/* for the patient :) */
+		-webkit-transition-duration: 10s;
+		   -moz-transition-duration: 10s;
+		        transition-duration: 10s;
+
+		-webkit-transform: rotate3d(45,45,0,-36deg);
+		   -moz-transform: rotate3d(45,45,0,-36deg);
+		        transform: rotate3d(45,45,0,-36deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+	#u18551 .diagonal.flip .box2,
+	#u18551 .diagonal.flip .box2:hover {
+	
+		z-index:900;
+		-webkit-transform: rotate3d(-45,-45,0,180deg);
+		    -moz-transform: rotate3d(-45,-45,0,180deg);
+		         transform: rotate3d(-45,-45,0,180deg);
+		          -webkit-transform-origin: 50% 50%;
+
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	}
+
+
+	#u18551 .diagonal .box2_back {
+		
+		-webkit-transform: rotate3d(45,45,0,-180deg);
+		   -moz-transform: rotate3d(45,45,0,-180deg);
+		        transform: rotate3d(45,45,0,-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .diagonal.flip .box2_back {
+		
+		z-index:1000;
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+	}
+	
+	#u18551 .diagonal .box2,#u18551 .diagonal .box2_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** diagonal flip other direction ***/
+	#u18551 .odiagonal .box2 {
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .odiagonal .box2:hover {
+		/* for the patient :) */
+		-webkit-transition-duration: 10s;
+		   -moz-transition-duration: 10s;
+		        transition-duration: 10s;
+
+		-webkit-transform: rotate3d(-45,-45,0,36deg);
+		   -moz-transform: rotate3d(-45,-45,0,36deg);
+		        transform: rotate3d(-45,-45,0,36deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+	#u18551 .odiagonal.flip .box2,
+	#u18551 .odiagonal.flip .box2:hover {
+	
+		z-index:900;
+		-webkit-transform: rotate3d(45,45,0,-180deg);
+		   -moz-transform: rotate3d(45,45,0,-180deg);
+		        transform: rotate3d(45,45,0,-180deg);
+
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+
+	#u18551 .odiagonal .box2_back {
+		
+		-webkit-transform: rotate3d(-45,-45,0,180deg);
+		   -moz-transform: rotate3d(-45,-45,0,180deg);
+		        transform: rotate3d(-45,-45,0,180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18551 .odiagonal.flip .box2_back {
+		
+		z-index:1000;
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	
+	#u18551 .odiagonal .box2,#u18551 .odiagonal .box2_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	
+</style>
+
+
+
+
+<style>
+	#u18544 .panel {
+		float: left;
+		width: 200px;
+		height: 200px;
+		/*margin: 20px;
+		 font-size: .8em;
+		 */
+		position: relative;
+
+		-webkit-perspective: 600px;
+		   -moz-perspective: 600px;
+		        perspective: 600px;
+		
+	}
+	#u18544 .panel .box3{
+		
+		z-index:900;
+		position:absolute;
+		margin:0px;
+		float: none;
+		top: 0;
+		left: 0;
+		-webkit-transform-style: preserve-3d;
+		   -moz-transform-style: preserve-3d;
+		        transform-style: preserve-3d;
+
+		-webkit-backface-visibility: hidden;
+		   -moz-backface-visibility: hidden;
+		        backface-visibility: hidden;
+
+		/* -- transition is the magic sauce for animation -- */
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	
+	}
+	#u18544 .panel .box3_back{
+		
+		z-index:800;
+		position:absolute;
+		margin:0px;
+		float: none;
+		top: 0;
+		left: 0;
+		-webkit-transform-style: preserve-3d;
+		   -moz-transform-style: preserve-3d;
+		        transform-style: preserve-3d;
+
+		-webkit-backface-visibility: hidden;
+		   -moz-backface-visibility: hidden;
+		        backface-visibility: hidden;
+
+		/* -- transition is the magic sauce for animation -- */
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	}
+	
+	/*** Horizontal flip ***/
+	
+	#u18544 .hflip .box3{
+		
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18544 .hflip.flip .box3{
+		
+		z-index:900;
+		-webkit-transform: rotateY(180deg);
+		   -moz-transform: rotateY(180deg);
+		        transform: rotateY(180deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+
+	#u18544 .hflip .box3_back{
+		
+		cursor: pointer;
+		-webkit-transform: rotateY(-180deg);
+		   -moz-transform: rotateY(-179deg); /* setting to 180 causes an unnatural-looking half-flip */
+		        transform: rotateY(-179deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18544 .hflip.flip .box3_back{
+	
+		z-index:1000;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+	#u18544 .hflip .box3,#u18544 .hflip .box3_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** Horizontal flip other direction ***/
+	
+	#u18544 .hoflip .box3{
+		
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18544 .hoflip.flip .box3{
+		
+		z-index:900;
+		-webkit-transform: rotateY(-180deg);
+		   -moz-transform: rotateY(-179deg);
+		        transform: rotateY(-179deg);
+		         -webkit-transform-origin: 50% 50%;
+		    
+	}
+	
+
+	#u18544 .hoflip .box3_back{
+		
+		cursor: pointer;
+		-webkit-transform: rotateY(180deg);
+		   -moz-transform: rotateY(180deg); /* setting to 180 causes an unnatural-looking half-flip */
+		        transform: rotateY(180deg);
+		         -webkit-transform-origin: 50% 50%;
+		       
+
+		
+	}
+	#u18544 .hoflip.flip .box3_back{
+	
+		z-index:1000;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+	#u18544 .hoflip .box3,#u18544 .hoflip .box3_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+		
+	}
+	
+	/*** Vertical flip ***/
+	
+	#u18544 .vflip .box3{
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .vflip.flip .box3{
+		
+		z-index:900;
+		-webkit-transform: rotateX(180deg);
+		   -moz-transform: rotateX(180deg);
+		        transform: rotateX(180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .vflip .box3_back{
+		cursor: pointer;
+		-webkit-transform: rotateX(-180deg);
+		   -moz-transform: rotateX(-180deg);
+		        transform: rotateX(-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .vflip.flip .box3_back{
+		
+		z-index:1000;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .vflip .box3,#u18544 .vflip .box3_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** Vertical flip other direction ***/
+	
+	#u18544 .voflip .box3{
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .voflip.flip .box3{
+		
+		z-index:900;
+		-webkit-transform: rotateX(-180deg);
+		   -moz-transform: rotateX(-180deg);
+		        transform: rotateX(-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .voflip .box3_back{
+		cursor: pointer;
+		-webkit-transform: rotateX(180deg);
+		   -moz-transform: rotateX(180deg);
+		        transform: rotateX(180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .voflip.flip .box3_back{
+		
+		z-index:1000;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .voflip .box3,#u18544 .voflip .box3_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	
+	/*** diagonal flip ***/
+	#u18544 .diagonal .box3 {
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .diagonal .box3:hover {
+		/* for the patient :) */
+		-webkit-transition-duration: 10s;
+		   -moz-transition-duration: 10s;
+		        transition-duration: 10s;
+
+		-webkit-transform: rotate3d(45,45,0,-36deg);
+		   -moz-transform: rotate3d(45,45,0,-36deg);
+		        transform: rotate3d(45,45,0,-36deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+	#u18544 .diagonal.flip .box3,
+	#u18544 .diagonal.flip .box3:hover {
+	
+		z-index:900;
+		-webkit-transform: rotate3d(-45,-45,0,180deg);
+		    -moz-transform: rotate3d(-45,-45,0,180deg);
+		         transform: rotate3d(-45,-45,0,180deg);
+		          -webkit-transform-origin: 50% 50%;
+
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	}
+
+
+	#u18544 .diagonal .box3_back {
+		
+		-webkit-transform: rotate3d(45,45,0,-180deg);
+		   -moz-transform: rotate3d(45,45,0,-180deg);
+		        transform: rotate3d(45,45,0,-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .diagonal.flip .box3_back {
+		
+		z-index:1000;
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+	}
+	
+	#u18544 .diagonal .box3,#u18544 .diagonal .box3_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** diagonal flip other direction ***/
+	#u18544 .odiagonal .box3 {
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .odiagonal .box3:hover {
+		/* for the patient :) */
+		-webkit-transition-duration: 10s;
+		   -moz-transition-duration: 10s;
+		        transition-duration: 10s;
+
+		-webkit-transform: rotate3d(-45,-45,0,36deg);
+		   -moz-transform: rotate3d(-45,-45,0,36deg);
+		        transform: rotate3d(-45,-45,0,36deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+	#u18544 .odiagonal.flip .box3,
+	#u18544 .odiagonal.flip .box3:hover {
+	
+		z-index:900;
+		-webkit-transform: rotate3d(45,45,0,-180deg);
+		   -moz-transform: rotate3d(45,45,0,-180deg);
+		        transform: rotate3d(45,45,0,-180deg);
+
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+
+	#u18544 .odiagonal .box3_back {
+		
+		-webkit-transform: rotate3d(-45,-45,0,180deg);
+		   -moz-transform: rotate3d(-45,-45,0,180deg);
+		        transform: rotate3d(-45,-45,0,180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18544 .odiagonal.flip .box3_back {
+		
+		z-index:1000;
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	
+	#u18544 .odiagonal .box3,#u18544 .odiagonal .box3_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	
+</style>
+
+
+
+
+<style>
+	#u18558 .panel {
+		float: left;
+		width: 200px;
+		height: 200px;
+		/*margin: 20px;
+		 font-size: .8em;
+		 */
+		position: relative;
+
+		-webkit-perspective: 600px;
+		   -moz-perspective: 600px;
+		        perspective: 600px;
+		
+	}
+	#u18558 .panel .box1{
+		
+		z-index:900;
+		position:absolute;
+		margin:0px;
+		float: none;
+		top: 0;
+		left: 0;
+		-webkit-transform-style: preserve-3d;
+		   -moz-transform-style: preserve-3d;
+		        transform-style: preserve-3d;
+
+		-webkit-backface-visibility: hidden;
+		   -moz-backface-visibility: hidden;
+		        backface-visibility: hidden;
+
+		/* -- transition is the magic sauce for animation -- */
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	
+	}
+	#u18558 .panel .box1_back{
+		
+		z-index:800;
+		position:absolute;
+		margin:0px;
+		float: none;
+		top: 0;
+		left: 0;
+		-webkit-transform-style: preserve-3d;
+		   -moz-transform-style: preserve-3d;
+		        transform-style: preserve-3d;
+
+		-webkit-backface-visibility: hidden;
+		   -moz-backface-visibility: hidden;
+		        backface-visibility: hidden;
+
+		/* -- transition is the magic sauce for animation -- */
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	}
+	
+	/*** Horizontal flip ***/
+	
+	#u18558 .hflip .box1{
+		
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18558 .hflip.flip .box1{
+		
+		z-index:900;
+		-webkit-transform: rotateY(180deg);
+		   -moz-transform: rotateY(180deg);
+		        transform: rotateY(180deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+
+	#u18558 .hflip .box1_back{
+		
+		cursor: pointer;
+		-webkit-transform: rotateY(-180deg);
+		   -moz-transform: rotateY(-179deg); /* setting to 180 causes an unnatural-looking half-flip */
+		        transform: rotateY(-179deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18558 .hflip.flip .box1_back{
+	
+		z-index:1000;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+	#u18558 .hflip .box1,#u18558 .hflip .box1_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** Horizontal flip other direction ***/
+	
+	#u18558 .hoflip .box1{
+		
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+
+		
+	}
+	#u18558 .hoflip.flip .box1{
+		
+		z-index:900;
+		-webkit-transform: rotateY(-180deg);
+		   -moz-transform: rotateY(-179deg);
+		        transform: rotateY(-179deg);
+		         -webkit-transform-origin: 50% 50%;
+		    
+	}
+	
+
+	#u18558 .hoflip .box1_back{
+		
+		cursor: pointer;
+		-webkit-transform: rotateY(180deg);
+		   -moz-transform: rotateY(180deg); /* setting to 180 causes an unnatural-looking half-flip */
+		        transform: rotateY(180deg);
+		         -webkit-transform-origin: 50% 50%;
+		       
+
+		
+	}
+	#u18558 .hoflip.flip .box1_back{
+	
+		z-index:1000;
+		-webkit-transform: rotateX(0deg) rotateY(0deg);
+		   -moz-transform: rotateX(0deg) rotateY(0deg);
+		        transform: rotateX(0deg) rotateY(0deg);
+		         -webkit-transform-origin: 50% 50%;
+		        
+	}
+	
+	#u18558 .hoflip .box1,#u18558 .hoflip .box1_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+		
+	}
+	
+	/*** Vertical flip ***/
+	
+	#u18558 .vflip .box1{
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .vflip.flip .box1{
+		
+		z-index:900;
+		-webkit-transform: rotateX(180deg);
+		   -moz-transform: rotateX(180deg);
+		        transform: rotateX(180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .vflip .box1_back{
+		cursor: pointer;
+		-webkit-transform: rotateX(-180deg);
+		   -moz-transform: rotateX(-180deg);
+		        transform: rotateX(-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .vflip.flip .box1_back{
+		
+		z-index:1000;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .vflip .box1,#u18558 .vflip .box1_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** Vertical flip other direction ***/
+	
+	#u18558 .voflip .box1{
+		cursor: pointer;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .voflip.flip .box1{
+		
+		z-index:900;
+		-webkit-transform: rotateX(-180deg);
+		   -moz-transform: rotateX(-180deg);
+		        transform: rotateX(-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .voflip .box1_back{
+		cursor: pointer;
+		-webkit-transform: rotateX(180deg);
+		   -moz-transform: rotateX(180deg);
+		        transform: rotateX(180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .voflip.flip .box1_back{
+		
+		z-index:1000;
+		-webkit-transform: rotateX(0deg);
+		   -moz-transform: rotateX(0deg);
+		        transform: rotateX(0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .voflip .box1,#u18558 .voflip .box1_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	
+	/*** diagonal flip ***/
+	#u18558 .diagonal .box1 {
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .diagonal .box1:hover {
+		/* for the patient :) */
+		-webkit-transition-duration: 10s;
+		   -moz-transition-duration: 10s;
+		        transition-duration: 10s;
+
+		-webkit-transform: rotate3d(45,45,0,-36deg);
+		   -moz-transform: rotate3d(45,45,0,-36deg);
+		        transform: rotate3d(45,45,0,-36deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+	#u18558 .diagonal.flip .box1,
+	#u18558 .diagonal.flip .box1:hover {
+	
+		z-index:900;
+		-webkit-transform: rotate3d(-45,-45,0,180deg);
+		    -moz-transform: rotate3d(-45,-45,0,180deg);
+		         transform: rotate3d(-45,-45,0,180deg);
+		          -webkit-transform-origin: 50% 50%;
+
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+	}
+
+
+	#u18558 .diagonal .box1_back {
+		
+		-webkit-transform: rotate3d(45,45,0,-180deg);
+		   -moz-transform: rotate3d(45,45,0,-180deg);
+		        transform: rotate3d(45,45,0,-180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .diagonal.flip .box1_back {
+		
+		z-index:1000;
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+	}
+	
+	#u18558 .diagonal .box1,#u18558 .diagonal .box1_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	/*** diagonal flip other direction ***/
+	#u18558 .odiagonal .box1 {
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .odiagonal .box1:hover {
+		/* for the patient :) */
+		-webkit-transition-duration: 10s;
+		   -moz-transition-duration: 10s;
+		        transition-duration: 10s;
+
+		-webkit-transform: rotate3d(-45,-45,0,36deg);
+		   -moz-transform: rotate3d(-45,-45,0,36deg);
+		        transform: rotate3d(-45,-45,0,36deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+	#u18558 .odiagonal.flip .box1,
+	#u18558 .odiagonal.flip .box1:hover {
+	
+		z-index:900;
+		-webkit-transform: rotate3d(45,45,0,-180deg);
+		   -moz-transform: rotate3d(45,45,0,-180deg);
+		        transform: rotate3d(45,45,0,-180deg);
+
+		-webkit-transition: all .4s ease-in-out;
+		        transition: all .4s ease-in-out;
+		         -webkit-transform-origin: 50% 50%;
+	}
+
+
+	#u18558 .odiagonal .box1_back {
+		
+		-webkit-transform: rotate3d(-45,-45,0,180deg);
+		   -moz-transform: rotate3d(-45,-45,0,180deg);
+		        transform: rotate3d(-45,-45,0,180deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	#u18558 .odiagonal.flip .box1_back {
+		
+		z-index:1000;
+		-webkit-transform: rotate3d(45,45,0,0deg);
+		   -moz-transform: rotate3d(45,45,0,0deg);
+		        transform: rotate3d(45,45,0,0deg);
+		         -webkit-transform-origin: 50% 50%;
+	}
+	
+	#u18558 .odiagonal .box1,#u18558 .odiagonal .box1_back{
+		
+		transform-origin:center center 0;
+		 -webkit-transform-origin: 50% 50%;
+	}
+	
+	
+</style>
+
+
+
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu18344"><!-- group -->
+    <div class="browser_width" id="u18344-bw">
+     <div id="u18344"><!-- simple frame --></div>
+    </div>
+    <!-- m_editable region-id="editable-static-tag-U18345-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="clearfix" id="u18345-4" data-muse-uid="U18345" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <p>+91-9040281993</p>
+    </div>
+    <!-- /m_editable -->
+    <div class="browser_width" id="u18346-bw">
+     <div id="u18346"><!-- simple frame --></div>
+    </div>
+    <div class="museBGSize" id="u18347"><!-- content --></div>
+    <div class="museBGSize" id="u18348"><!-- simple frame --></div>
+    <!-- m_editable region-id="editable-static-tag-U18350-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="clearfix" id="u18350-4" data-muse-uid="U18350" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <p>AAROH SPEECH &amp; HEARING CLINIC</p>
+    </div>
+    <!-- /m_editable -->
+    <div class="clearfix" id="u18559"><!-- group -->
+     <!-- m_editable region-id="editable-static-tag-U18560" template="why-us.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize rounded-corners" id="u18560" href="https://web.whatsapp.com/" data-muse-uid="U18560"><!-- simple frame --></a>
+     <!-- /m_editable -->
+     <!-- m_editable region-id="editable-static-tag-U18563" template="why-us.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize rounded-corners" id="u18563" href="http://%3Ca%20href=%22tel:+62896706255135%22%3E" data-muse-uid="U18563"><!-- simple frame --></a>
+     <!-- /m_editable -->
+     <div class="museBGSize rounded-corners" id="u18561"><!-- simple frame --></div>
+     <div class="museBGSize rounded-corners" id="u18562"><!-- simple frame --></div>
+    </div>
+   </div>
+   <div class="clearfix grpelem" id="ppu18339"><!-- column -->
+    <div class="clearfix colelem" id="pu18339"><!-- group -->
+     <div class="browser_width grpelem" id="u18339-bw">
+      <div class="museBGSize rounded-corners" id="u18339"><!-- group -->
+       <div class="clearfix" id="u18339_align_to_page">
+        <img class="grpelem" id="u18349-4" alt="WHY US" width="235" height="66" src="images/u18349-4.png?crc=344784159" data-IBE-flags="txtStyleSrc"/><!-- rasterized frame -->
+        <div class="museBGSize grpelem" id="u18343"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <nav class="MenuBar clearfix grpelem" id="menuu18353"><!-- horizontal box -->
+      <div class="MenuItemContainer clearfix grpelem" id="u18431"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix colelem" id="u18432" href="index.html" data-href="page:U71"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u18434-4"><!-- content --><p>Home</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u18382"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox rounded-corners clearfix colelem" id="u18383" href="why-us.html" data-href="page:U5364"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u18384-4"><!-- content --><p>Why Us</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u18354"><!-- vertical box -->
+       <div class="MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix colelem" id="u18371"><!-- horizontal box -->
+        <div class="MenuItemLabel NoWrap clearfix grpelem" id="u18374-4"><!-- content -->
+         <p>Hearing</p>
+        </div>
+        <div class="grpelem" id="u18372"><!-- content --></div>
+       </div>
+       <div class="SubMenu MenuLevel1 clearfix" id="u18355"><!-- vertical box -->
+        <ul class="SubMenuView clearfix colelem" id="u18356"><!-- vertical box -->
+         <li class="MenuItemContainer clearfix colelem" id="u18364"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u18365" href="hearing-aid-care.html" data-href="page:U6017"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u18366-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u18366-3"><p>Hearing Aid Care</p></div></div></a></li>
+         <li class="MenuItemContainer clearfix colelem" id="u18357"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u18358" href="hearing-aid-battery.html" data-href="page:U6063"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u18360-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u18360-3"><p>Hearing Aid Battery</p></div></div></a></li>
+        </ul>
+       </div>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u18438"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix colelem" id="u18441" href="hearing-aid.html" data-href="page:U3436"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u18444-4"><!-- content --><p>Hearing Aid</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u18389"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix colelem" id="u18420" href="consultation.html" data-href="page:U6293"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u18423-4"><!-- content --><p>Consultation</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u18424"><!-- vertical box -->
+       <div class="MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix colelem" id="u18425"><!-- horizontal box -->
+        <div class="MenuItemLabel NoWrap clearfix grpelem" id="u18427-4"><!-- content -->
+         <p>Our Services</p>
+        </div>
+        <div class="grpelem" id="u18428"><!-- content --></div>
+       </div>
+       <div class="SubMenu MenuLevel1 clearfix" id="u18429"><!-- vertical box -->
+        <ul class="SubMenuView clearfix colelem" id="u18430"><!-- vertical box -->
+         <li class="MenuItemContainer clearfix colelem" id="u19267"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u19270" href="diagnostic-for--adult.html" data-href="page:U6247"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u19276-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u19276-3"><p>DIAGNOSTIC FOR&nbsp; ADULT</p></div></div></a></li>
+         <li class="MenuItemContainer clearfix colelem" id="u19295"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u19296" href="diagnostic-for--children.html" data-href="page:U6109"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u19299-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u19299-3"><p>DIAGNOSTIC FOR&nbsp; CHILDREN</p></div></div></a></li>
+         <li class="MenuItemContainer clearfix colelem" id="u19323"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u19326" href="diagnostic-for--new-born.html" data-href="page:U6155"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u19329-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u19329-3"><p>DIAGNOSTIC FOR&nbsp; NEW BORN</p></div></div></a></li>
+         <li class="MenuItemContainer clearfix colelem" id="u19351"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u19354" href="speach-therapy.html" data-href="page:U6201"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u19357-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u19357-3"><p>SPEACH THERAPY</p></div></div></a></li>
+        </ul>
+       </div>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u18375"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix colelem" id="u18378" href="gallery.html" data-href="page:U1916"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u18380-4"><!-- content --><p>Gallery</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u19239"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix colelem" id="u19242" href="contact.html" data-href="page:U1952"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u19244-4"><!-- content --><p>Contact</p></div></a>
+      </div>
+     </nav>
+    </div>
+    <div class="clearfix colelem" id="pu18340-34"><!-- group -->
+     <!-- m_editable region-id="editable-static-tag-U18340-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+     <div class="clearfix grpelem" id="u18340-34" data-muse-uid="U18340" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+      <p id="u18340-3"><span id="u18340">&nbsp;&nbsp; </span><span id="u18340-2">&nbsp;&nbsp;&nbsp;&nbsp; At AAROH SPEECH &amp;&nbsp; HEARING CLINIC is a leading clinic specialises in best brand hearing aid , cochlear implants, speech Therapy&nbsp;&nbsp;&nbsp; and all audiological Diagnostics.</span></p>
+      <p id="u18340-4">&nbsp;</p>
+      <p id="u18340-6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We&nbsp; have three branches&nbsp; in Balasore , Bhadrak &amp;&nbsp; Baripada since 2015.</p>
+      <p id="u18340-7">&nbsp;</p>
+      <p id="u18340-9">With Best Regards,</p>
+      <p id="u18340-10">&nbsp;</p>
+      <p id="u18340-12">Prasanjit Aliv Ku. Barik</p>
+      <p id="u18340-14">Audiologist &amp; Speech Therapist</p>
+      <p id="u18340-16">Regd No-A39999, RCI (BASLP)</p>
+      <p id="u18340-17">&nbsp;</p>
+      <p id="u18340-18">&nbsp;</p>
+      <p id="u18340-20">AAROH SPEECH &amp; HEARING CLINIC</p>
+      <p id="u18340-22">Near SHARPMIND +2 College</p>
+      <p id="u18340-24">Tapaswini Bhawan, Azimabad ,</p>
+      <p id="u18340-26">Mallikashpur,Khaparapada,</p>
+      <p id="u18340-28">Balasore, Odisha, Pin-756001</p>
+      <p id="u18340-31">Email- <span id="u18340-30">info@aaroh.com</span></p>
+      <p id="u18340-32">&nbsp;</p>
+     </div>
+     <!-- /m_editable -->
+     <div class="rounded-corners museBGSize grpelem" id="u18341"><!-- simple frame --></div>
+     <div class="rounded-corners museBGSize grpelem" id="u18342"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu18329"><!-- group -->
+     <div class="rounded-corners clearfix grpelem" id="u18329"><!-- column -->
+      <!-- m_editable region-id="editable-static-tag-U18351-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+      <div class="shadow rounded-corners clearfix colelem" id="u18351-4" data-muse-uid="U18351" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+       <p id="u18351-2">WHAT YOU WILL GET FROM US</p>
+      </div>
+      <!-- /m_editable -->
+      <div class="clearfix colelem" id="ppu18545-10"><!-- group -->
+       <div class="clearfix grpelem" id="pu18545-10"><!-- group -->
+        <!-- m_editable region-id="editable-static-tag-U18545-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="box2_back body_copy clearfix grpelem" id="u18545-10" data-muse-uid="U18545" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p id="u18545">&nbsp;</p>
+         <p id="u18545-2">&nbsp;</p>
+         <p id="u18545-3">&nbsp;</p>
+         <p id="u18545-4">&nbsp;</p>
+         <p id="u18545-6">FREE HEARING EXAMINATION FROM AUDIOLOGIST</p>
+         <p id="u18545-7">&nbsp;</p>
+         <p id="u18545-8">&nbsp;</p>
+        </div>
+        <!-- /m_editable -->
+        <!-- m_editable region-id="editable-static-tag-U18546-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="box2 headline clearfix grpelem" id="u18546-12" data-muse-uid="U18546" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <h2>&nbsp;</h2>
+         <h2>&nbsp;</h2>
+         <h2><span id="u18546-3">​</span><span class="actAsInlineDiv normal_text" id="u18549"><!-- content --><!-- m_editable region-id="editable-static-tag-U18550-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><span class="actAsDiv headline clearfix excludeFromNormalFlow" id="u18550-14" data-muse-uid="U18550" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><span class="actAsPara" id="u18550">&nbsp;</span><span class="actAsPara" id="u18550-3">YOU</span><span class="actAsPara" id="u18550-5">WILL</span><span class="actAsPara" id="u18550-7">GET</span><span class="actAsPara" id="u18550-9">2</span><span class="actAsPara" id="u18550-10">&nbsp;</span><span class="actAsPara" id="u18550-11">&nbsp;</span><span class="actAsPara" id="u18550-12">&nbsp;</span></span><!-- /m_editable --></span><span></span></h2>
+         <h2 id="u18546-6">&nbsp;</h2>
+         <h2 id="u18546-7">&nbsp;</h2>
+         <h2 id="u18546-10"><span id="u18546-8">​</span><span class="actAsInlineDiv normal_text" id="u18547"><!-- content --><!-- m_editable region-id="editable-static-tag-U18548-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><span class="actAsDiv museBGSize rounded-corners clearfix excludeFromNormalFlow" id="u18548-3" data-muse-uid="U18548" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><span class="actAsPara">&nbsp;</span></span><!-- /m_editable --></span></h2>
+        </div>
+        <!-- /m_editable -->
+        <div class="size_fixed grpelem" id="u18551"><!-- custom html -->
+         
+<div class="panel vflip"></div>
+
+                
+        </div>
+       </div>
+       <!-- m_editable region-id="editable-static-tag-U18538-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="box3_back clearfix grpelem" id="u18538-14" data-muse-uid="U18538" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p class="body_copy" id="u18538">&nbsp;</p>
+        <p class="body_copy" id="u18538-2">&nbsp;</p>
+        <p class="body_copy" id="u18538-3">&nbsp;</p>
+        <p class="body_copy" id="u18538-4">&nbsp;</p>
+        <p id="u18538-6">HEARING AID</p>
+        <p id="u18538-8">TRAIL AND</p>
+        <p class="body_copy" id="u18538-10">FITTING</p>
+        <p class="body_copy" id="u18538-11">&nbsp;</p>
+        <p class="body_copy" id="u18538-12">&nbsp;</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U18539-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="box3 headline clearfix grpelem" id="u18539-13" data-muse-uid="U18539" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <h2>&nbsp;</h2>
+        <h2>&nbsp;</h2>
+        <h2>&nbsp;</h2>
+        <h2>&nbsp;</h2>
+        <h2 id="u18539-7"><span id="u18539-5">​</span><span class="actAsInlineDiv normal_text" id="u18540"><!-- content --><!-- m_editable region-id="editable-static-tag-U18541-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><span class="actAsDiv headline clearfix excludeFromNormalFlow" id="u18541-14" data-muse-uid="U18541" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><span class="actAsPara" id="u18541">&nbsp;</span><span class="actAsPara" id="u18541-3">YOU</span><span class="actAsPara" id="u18541-5">WILL</span><span class="actAsPara" id="u18541-7">GET</span><span class="actAsPara" id="u18541-9">3</span><span class="actAsPara" id="u18541-10">&nbsp;</span><span class="actAsPara" id="u18541-11">&nbsp;</span><span class="actAsPara" id="u18541-12">&nbsp;</span></span><!-- /m_editable --></span></h2>
+        <h2 id="u18539-8">&nbsp;</h2>
+        <h2 id="u18539-11"><span id="u18539-9">​</span><span class="actAsInlineDiv normal_text" id="u18542"><!-- content --><!-- m_editable region-id="editable-static-tag-U18543-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><span class="actAsDiv museBGSize rounded-corners clearfix excludeFromNormalFlow" id="u18543-3" data-muse-uid="U18543" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><span class="actAsPara">&nbsp;</span></span><!-- /m_editable --></span></h2>
+       </div>
+       <!-- /m_editable -->
+       <div class="size_fixed grpelem" id="u18544"><!-- custom html -->
+        
+<div class="panel hoflip"></div>
+
+                
+       </div>
+       <!-- m_editable region-id="editable-static-tag-U18552-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="box1_back clearfix grpelem" id="u18552-15" data-muse-uid="U18552" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p class="body_copy" id="u18552">&nbsp;</p>
+        <p class="body_copy" id="u18552-2">&nbsp;</p>
+        <p class="body_copy" id="u18552-3">&nbsp;</p>
+        <p class="body_copy" id="u18552-4">&nbsp;</p>
+        <p class="body_copy" id="u18552-5">&nbsp;</p>
+        <p id="u18552-7">2 YEARS FREE</p>
+        <p id="u18552-9">SERVICE AND</p>
+        <p class="body_copy" id="u18552-11">WARRANTY</p>
+        <p class="body_copy" id="u18552-12">&nbsp;</p>
+        <p class="body_copy" id="u18552-13">&nbsp;</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U18553-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="box1 headline clearfix grpelem" id="u18553-13" data-muse-uid="U18553" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <h2>&nbsp;</h2>
+        <h2>&nbsp;</h2>
+        <h2>&nbsp;</h2>
+        <h2>&nbsp;</h2>
+        <h2 id="u18553-7"><span id="u18553-5">​</span><span class="actAsInlineDiv normal_text" id="u18554"><!-- content --><!-- m_editable region-id="editable-static-tag-U18555-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><span class="actAsDiv headline clearfix excludeFromNormalFlow" id="u18555-16" data-muse-uid="U18555" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><span class="actAsPara" id="u18555">&nbsp;</span><span class="actAsPara" id="u18555-3">YOU</span><span class="actAsPara" id="u18555-5">WILL</span><span class="actAsPara" id="u18555-7">GET</span><span class="actAsPara" id="u18555-9">1</span><span class="actAsPara" id="u18555-10">&nbsp;</span><span class="actAsPara" id="u18555-11">&nbsp;</span><span class="actAsPara" id="u18555-12">&nbsp;</span><span class="actAsPara" id="u18555-13">&nbsp;</span><span class="actAsPara" id="u18555-14">&nbsp;</span></span><!-- /m_editable --></span></h2>
+        <h2 id="u18553-8">&nbsp;</h2>
+        <h2 id="u18553-11"><span id="u18553-9">​</span><span class="actAsInlineDiv normal_text" id="u18556"><!-- content --><!-- m_editable region-id="editable-static-tag-U18557-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><span class="actAsDiv museBGSize rounded-corners clearfix excludeFromNormalFlow" id="u18557-3" data-muse-uid="U18557" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><span class="actAsPara">&nbsp;</span></span><!-- /m_editable --></span></h2>
+       </div>
+       <!-- /m_editable -->
+       <div class="size_fixed grpelem" id="u18558"><!-- custom html -->
+        
+<div class="panel hflip"></div>
+
+                
+       </div>
+      </div>
+      <!-- m_editable region-id="editable-static-tag-U18352-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+      <div class="shadow rounded-corners clearfix colelem" id="u18352-4" data-muse-uid="U18352" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+       <p id="u18352-2">FOR FREE EXAM CLICK HERE</p>
+      </div>
+      <!-- /m_editable -->
+     </div>
+     <div class="grpelem" id="u18564"><!-- custom html -->
+      <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+91(904)-028-19-93", // WhatsApp number
+            viber: "+91(904)-028-19-93", // Viber number
+            call_to_action: "Contact AAROH", // Call to action
+            button_color: "#FF318E", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "whatsapp,viber", // Order of buttons
+            pre_filled_message: "I came to know about AAROH from internet. ", // WhatsApp pre-filled message
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+
+     </div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="1695" data-content-above-spacer="1690" data-content-below-spacer="446"></div>
+   <div class="clearfix grpelem" id="pu18330"><!-- group -->
+    <div class="browser_width grpelem" id="u18330-bw">
+     <div class="gradient" id="u18330"><!-- column -->
+      <div class="clearfix" id="u18330_align_to_page">
+       <div class="position_content" id="u18330_position_content">
+        <div class="rounded-corners colelem" id="u18338"><!-- simple frame --></div>
+        <div class="clearfix colelem" id="ppu18333-4"><!-- group -->
+         <div class="clearfix grpelem" id="pu18333-4"><!-- column -->
+          <!-- m_editable region-id="editable-static-tag-U18333-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+          <div class="clearfix colelem" id="u18333-4" data-muse-uid="U18333" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+           <p><span id="u18333">Quick Links</span></p>
+          </div>
+          <!-- /m_editable -->
+          <nav class="MenuBar clearfix colelem" id="menuu18446"><!-- vertical box -->
+           <div class="MenuItemContainer clearfix colelem" id="u18454"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix grpelem" id="u18455" href="index.html" data-href="page:U71"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u18456-4" data-IBE-flags="txtStyleSrc"><!-- content --><p>Home</p></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem" id="u18517"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox rounded-corners clearfix grpelem" id="u18520" href="why-us.html" data-href="page:U5364"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u18523-4"><!-- content --><p>Why Us</p></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem" id="u18496"><!-- horizontal box -->
+            <div class="MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix grpelem" id="u18513"><!-- horizontal box -->
+             <div class="MenuItemLabel clearfix grpelem" id="u18515-4"><!-- content -->
+              <p>Hearing</p>
+             </div>
+            </div>
+            <div class="SubMenu MenuLevel1 clearfix" id="u18497"><!-- vertical box -->
+             <ul class="SubMenuView clearfix colelem" id="u18498"><!-- vertical box -->
+              <li class="MenuItemContainer clearfix colelem" id="u18506"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u18507" href="hearing-aid-care.html" data-href="page:U6017"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u18508-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u18508-3"><p>Hearing Aid Care</p></div></div></a></li>
+              <li class="MenuItemContainer clearfix colelem" id="u18499"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u18500" href="hearing-aid-battery.html" data-href="page:U6063"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u18503-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u18503-3"><p>Hearing Aid Battery</p></div></div></a></li>
+             </ul>
+            </div>
+           </div>
+           <div class="MenuItemContainer clearfix colelem" id="u18524"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix grpelem" id="u18525" href="hearing-aid.html" data-href="page:U3436"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u18527-4"><!-- content --><p>Hearing Aid</p></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem" id="u18461"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix grpelem" id="u18462" href="consultation.html" data-href="page:U6293"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u18465-4"><!-- content --><p>Consultation</p></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem" id="u18531"><!-- horizontal box -->
+            <div class="MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix grpelem" id="u18532"><!-- horizontal box -->
+             <div class="MenuItemLabel clearfix grpelem" id="u18533-4"><!-- content -->
+              <p>Our Services</p>
+             </div>
+            </div>
+            <div class="SubMenu MenuLevel1 clearfix" id="u18536"><!-- vertical box -->
+             <ul class="SubMenuView clearfix colelem" id="u18537"><!-- vertical box -->
+              <li class="MenuItemContainer clearfix colelem" id="u19127"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u19130" href="diagnostic-for--adult.html" data-href="page:U6247"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u19136-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u19136-3"><p>DIAGNOSTIC FOR&nbsp; ADULT</p></div></div></a></li>
+              <li class="MenuItemContainer clearfix colelem" id="u19155"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u19156" href="diagnostic-for--children.html" data-href="page:U6109"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u19158-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u19158-3"><p>DIAGNOSTIC FOR&nbsp; CHILDREN</p></div></div></a></li>
+              <li class="MenuItemContainer clearfix colelem" id="u19183"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u19186" href="diagnostic-for--new-born.html" data-href="page:U6155"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u19187-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u19187-3"><p>DIAGNOSTIC FOR&nbsp; NEW BORN</p></div></div></a></li>
+              <li class="MenuItemContainer clearfix colelem" id="u19211"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u19214" href="speach-therapy.html" data-href="page:U6201"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u19216-4" data-IBE-flags="txtStyleSrc"><!-- content --><div id="u19216-3"><p>SPEACH THERAPY</p></div></div></a></li>
+             </ul>
+            </div>
+           </div>
+           <div class="MenuItemContainer clearfix colelem" id="u18447"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix grpelem" id="u18448" href="gallery.html" data-href="page:U1916"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u18450-4"><!-- content --><p>Gallery</p></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem" id="u19098"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox rounded-corners clearfix grpelem" id="u19101" href="contact.html" data-href="page:U1952"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u19102-4"><!-- content --><p>Contact</p></div></a>
+           </div>
+          </nav>
+         </div>
+         <div class="museBGSize grpelem" id="u18332"><!-- simple frame --></div>
+         <div class="clearfix grpelem" id="pu18334-4"><!-- column -->
+          <!-- m_editable region-id="editable-static-tag-U18334-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+          <div class="clearfix colelem" id="u18334-4" data-muse-uid="U18334" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+           <p><span id="u18334">Facilities Available</span></p>
+          </div>
+          <!-- /m_editable -->
+          <!-- m_editable region-id="editable-static-tag-U18445-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+          <div class="clearfix colelem" id="u18445-21" data-muse-uid="U18445" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+           <ul class="list0 nls-None" id="u18445-19">
+            <li>PURE TONE AUDIOMETRY</li>
+            <li>OAE &amp; BERA TESTING</li>
+            <li>DIGITAL HEARING AIDS</li>
+            <li>IMPEDANCE AUDIOMETRY</li>
+            <li>AUDITORY VERBAL THERAPY</li>
+            <li>COCHLEAR IMPLANT</li>
+            <li>TINNITUS EVALUATION &amp; TREATMENT</li>
+            <li>HEARING AID ACCESSORIES</li>
+            <li>SPEECH THERAPY</li>
+           </ul>
+          </div>
+          <!-- /m_editable -->
+          <div class="shadow rounded-corners museBGSize colelem" id="u18335"><!-- simple frame --></div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="browser_width grpelem" id="u18331-bw">
+     <div id="u18331"><!-- group -->
+      <div class="clearfix" id="u18331_align_to_page">
+       <!-- m_editable region-id="editable-static-tag-U18336-BP_infinity" template="why-us.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix grpelem" id="u18336-4" data-muse-uid="U18336" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>© 2021 All Rights Reserved By AAROH SPEECH &amp; HEARING CLINIC | Designed By</p>
+       </div>
+       <!-- /m_editable -->
+       <div class="museBGSize grpelem" id="u18337"><!-- simple frame --></div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide whether to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(c){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},d=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},f=function(f){for(var g=document.getElementsByTagName("link"),j=0;j<g.length;j++)if("text/css"==g[j].type){var l=(g[j].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!l||!l[1]||!l[2])break;b[l[1]]=l[2]}g=document.createElement("div");g.className="version";g.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(g);for(j=0;j<Muse.assets.required.length;){var l=Muse.assets.required[j],k=l.match(/([\w\-\.]+)\.(\w+)$/),i=k&&k[1]?
+k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){f(!0)},5E3):f()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","jquery.musemenu"],function(c){var $ = c;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4177726516" type="text/javascript" async data-main="scripts/museconfig.js?crc=3936894949" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+	
+		<script type="text/javascript">
+			
+			$(function() {
+					
+					$(".box2").detach().appendTo('#u18551 .panel');
+					$(".box2_back").detach().appendTo('#u18551 .panel');
+					
+					var width = $('.box2').width();
+					var height = $('.box2').outerHeight();
+					
+					//alert("w:"+width+" "+"h:"+height);
+					//$('#u18551').css({"width":width,"height":height});
+					
+					$('#u18551 .panel').css({"width":width,"height":height});
+					 
+			});
+		</script>
+		
+		<script>
+			$(document).ready(function(){
+		
+				// set up hover panels
+				// although this can be done without JavaScript, we've attached these events
+				// because it causes the hover to be triggered when the element is tapped on a touch device
+				$('.panel').hover(function(){
+					$(this).addClass('flip');
+				},function(){
+					$(this).removeClass('flip');
+				});
+		
+				
+			});
+		</script>
+	
+
+	
+	
+		<script type="text/javascript">
+			
+			$(function() {
+					
+					$(".box3").detach().appendTo('#u18544 .panel');
+					$(".box3_back").detach().appendTo('#u18544 .panel');
+					
+					var width = $('.box3').width();
+					var height = $('.box3').outerHeight();
+					
+					//alert("w:"+width+" "+"h:"+height);
+					//$('#u18544').css({"width":width,"height":height});
+					
+					$('#u18544 .panel').css({"width":width,"height":height});
+					 
+			});
+		</script>
+		
+		<script>
+			$(document).ready(function(){
+		
+				// set up hover panels
+				// although this can be done without JavaScript, we've attached these events
+				// because it causes the hover to be triggered when the element is tapped on a touch device
+				$('.panel').hover(function(){
+					$(this).addClass('flip');
+				},function(){
+					$(this).removeClass('flip');
+				});
+		
+				
+			});
+		</script>
+	
+
+	
+	
+		<script type="text/javascript">
+			
+			$(function() {
+					
+					$(".box1").detach().appendTo('#u18558 .panel');
+					$(".box1_back").detach().appendTo('#u18558 .panel');
+					
+					var width = $('.box1').width();
+					var height = $('.box1').outerHeight();
+					
+					//alert("w:"+width+" "+"h:"+height);
+					//$('#u18558').css({"width":width,"height":height});
+					
+					$('#u18558 .panel').css({"width":width,"height":height});
+					 
+			});
+		</script>
+		
+		<script>
+			$(document).ready(function(){
+		
+				// set up hover panels
+				// although this can be done without JavaScript, we've attached these events
+				// because it causes the hover to be triggered when the element is tapped on a touch device
+				$('.panel').hover(function(){
+					$(this).addClass('flip');
+				},function(){
+					$(this).removeClass('flip');
+				});
+		
+				
+			});
+		</script>
+	
+
+	
+   </body>
+</html>
